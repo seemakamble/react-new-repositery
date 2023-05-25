@@ -33,13 +33,14 @@ import DynamicRouting from './components/practice/DynamicRouting';
 import NewMethod from './components/practice/NewMethod';
 import Subarray from './components/practice/Subarray';
 import Factorial from './components/practice/Factorial';
-
+import Counter from './components/practice/Counter';
+import CreateContext from './components/practice/CreateContext';
 export default function App() {
   return (
     <div>
-      <Nav />
-      {/* <Home /> */}
-      {/* <Valid /> */}
+       <Nav />
+      {/* <Home />
+      <Valid/>  */}
 
       <Link to="nestedform">go to nested frm </Link>
       <Routes>
@@ -76,6 +77,8 @@ export default function App() {
         <Route path="newmethod" element={<NewMethod />} />
         <Route path="subarray" element={<Subarray />} />
         <Route path="factorial" element={<Factorial />} />
+        <Route path="counter" element={<Counter/>}/>
+        <Route path="CreateContext" element={<CreateContext/>}/>
       </Routes>
     </div>
   );

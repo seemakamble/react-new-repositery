@@ -101,8 +101,8 @@ function AddForm() {
       </form>
       {/* <h2>Name:{user.name}</h2>
      <h2>email:{data.email}</h2>
-     <h2>password:{data.password}</h2> */}
-      {table?.length && (
+    <h2>password:{data.password}</h2> */}
+    { table?.length && (
         <table border="1" className="table-input">
           <thead>
             <tr>
@@ -141,7 +141,7 @@ function AddForm() {
             })}
           </tbody>
         </table>
-      )}
+     )}
     </div>
   );
 }

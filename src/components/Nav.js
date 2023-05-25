@@ -98,6 +98,8 @@ function Nav() {
         <li>
           <Link to="compo3">Nested Component</Link>
         </li>
+        <li><Link to="counter">Counter</Link></li>
+        <li><Link to="CreateContext">CreateContext</Link></li>
       </ul>
     </div>
   );
